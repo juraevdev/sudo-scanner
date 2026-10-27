@@ -1,0 +1,29 @@
+name: sudo_scanner
+description: "UzNext yuz skaneri: talabalarni yuz orqali ro'yxatga olish va e-karta berish."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.12.1
+  http: ^1.6.0
+  qr: ^3.0.2
+  camera_windows: ^0.3.0
+  shared_preferences: ^2.5.3
+  app_settings: ^6.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/brand/
